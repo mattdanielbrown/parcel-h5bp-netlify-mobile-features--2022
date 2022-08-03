@@ -1,0 +1,12 @@
+{
+  "short_name": "MobiWebOpti2022",
+  "name": "Mobile Web Optimized 2022",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#CFD4D9",
+  "theme_color": "#4766E3"
+}

@@ -1,0 +1,29 @@
+
+@use "sass:string";
+@use "sass:meta";
+@use "sass:selector";
+@use "sass:map";
+@use "sass:list";
+
+
+@import "theme-colors";
+@import "fonts";
+
+
+//——————————————————————————————————————————————————————————————————————————————
+// Selector Group Variables
+//——————————————————————————————————————————————————————————————————————————————
+
+// All <h*> (heading) element selectors : <h1>...<h6>
+$selector-group--headings : ( "h1, h2, h3, h4, h5, h6" );
+
+// All Text-Based Input Selectors
+$selector-group--text-inputs: ("[type='color'],[type='date'],[type='datetime']",
+	"[type='datetime-local']","[type='email']","[type='month']","[type='number']",
+	"[type='password'],[type='search'],[type='tel'],[type='text'],[type='time']",
+	"[type='url'],[type='week'],input:not([type]),textarea");
+
+// All Button and Button-Like Control Selectors
+$selector-group--buttons : ( "button,.button,[role='button'],[type='button']",
+	"[type='reset'],[type='submit']" );
+

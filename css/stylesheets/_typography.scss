@@ -1,0 +1,60 @@
+
+h1 { font-size : 2em; }
+
+h2 { font-size : 1.7411em; }
+
+h3 { font-size : 1.5157em; }
+
+h4 { font-size : 1.3195em; }
+
+h5 { font-size : 1.1487em; }
+
+small { font-size : .8706em; }
+
+html { font-size : 1.25em; }
+
+h1, h2, h3, h4, h5 {
+	font-weight : 600;
+	line-height : 1;
+	margin : 0 auto 1rem;
+	display : block;
+	& ~ p {
+		margin-top : 1em !important;
+	}
+}
+h2 {
+	font-weight : 600;
+}
+h3 {
+	font-weight : 600;
+	margin-top : 1.5rem !important;
+	margin-bottom : .25rem !important;
+}
+h2 ~ h3 {
+	margin-top : 1.5rem;
+}
+p {
+	& ~ h1,
+	& ~ h2,
+	& ~ h3,
+	& ~ h4,
+	& ~ h5 {
+		margin-top : 1em;
+	}
+}
+
+html,body,p,button,a,label,legend,address,details,summary,dt,dd,dfn,input,textarea {
+	font-family : $fontstack;
+}
+
+h1 {
+	display : block;
+	color: white;
+	margin-top : 1.25rem;
+	small {
+		line-height : 1;
+		display : block;
+		color: white;
+		margin : 1rem 0 1rem;
+	}
+}

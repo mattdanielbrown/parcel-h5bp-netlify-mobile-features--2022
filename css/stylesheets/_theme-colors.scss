@@ -1,0 +1,47 @@
+
+@import "color-primitives";
+
+//------------------------------------------------------------------------------
+// Primary Color
+//------------------------------------------------------------------------------
+$color--primary--light     : $cornflower-blue;
+$color--primary            : $royal-blue-1;
+$color--primary-dark       : $mariner;
+$color--primary--darker    : $governor-bay;
+$color--primary--darkest   : #3c54b9;
+
+//------------------------------------------------------------------------------
+// Secondary Color
+//------------------------------------------------------------------------------
+$color--secondary--light   : $oslo-gray;
+$color--secondary          : $abbey;
+$color--secondary--dark    : $outer-space;
+$color--secondary--darker  : $shark;
+$color--secondary--darkest : #222529;
+
+//------------------------------------------------------------------------------
+// Danger Color
+//------------------------------------------------------------------------------
+$color--danger--light      : $froly;
+$color--danger             : $mandy;
+$color--danger--dark       : $valencia;
+$color--danger--darker     : $persian-red;
+$color--danger--darkest    : $well-read;
+
+//------------------------------------------------------------------------------
+// Success Color
+//------------------------------------------------------------------------------
+$color--success--light     : $mantis;
+$color--success            : $fern;
+$color--success--dark      : $fruit-salad;
+$color--success--darker    : $hippie-green;
+$color--success--darkest   : #57854e;
+
+//------------------------------------------------------------------------------
+// Neutral / Util Colors
+//------------------------------------------------------------------------------
+$color--offwhite-1         : $athens-gray;
+$color--offwhite-2         : $iron;
+$color--offwhite-3         : $bombay;
+$color--offwhite-4         : $oslo-gray;
+$color--offwhite-5         : $abbey;
